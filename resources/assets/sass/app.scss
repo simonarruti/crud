@@ -1,0 +1,30 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Loader
+@import "spinning-loader";
+
+
+// Bootstrap
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import url("https://bootswatch.com/paper/bootstrap.min.css");
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+// GLOBAL
+
+body {
+  background-color: #ecf0f1;
+}
+
+.swal2-buttonswrapper > button {
+  margin-right: 10px;
+}
+
+textarea {
+  resize: vertical;
+}
